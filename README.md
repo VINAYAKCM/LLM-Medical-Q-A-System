@@ -18,26 +18,26 @@ The LLM Medical Q&A System is a retrieval-augmented generation (RAG) platform de
 
 ## Setup Instructions & Dependencies
 1. **Clone the Repository:**
-   Command: git clone https://github.com/<your-github-username>/LLM-Med-QA-System.git
-   Command: cd LLM-Med-QA-System
+   - Command: git clone https://github.com/<your-github-username>/LLM-Med-QA-System.git
+   - Command: cd LLM-Med-QA-System
   
-2. **Create a Virtual Environment and Install Dependencies:**
-   Command: python -m venv venv
-   Command: source venv/bin/activate  #For Windows: venv\Scripts\activate
-   Command: pip install -r requirements.txt
-
 3. **Create a Virtual Environment and Install Dependencies:**
-   Create a .env file in the project root and add your Gemini API key: GEMINI_API_KEY=your_api_key_here
-   
+   - Command: python -m venv venv
+   - Command: source venv/bin/activate  #For Windows: venv\Scripts\activate
+   - Command: pip install -r requirements.txt
+
 4. **Create a Virtual Environment and Install Dependencies:**
-   •Extract content from the PDFs:
-   Command: python pdf_extracted.py
+   - Create a .env file in the project root and add your Gemini API key: GEMINI_API_KEY=your_api_key_here
+   
+6. **Create a Virtual Environment and Install Dependencies:**
+   - Extract content from the PDFs:
+      - Command: python pdf_extracted.py
 
-   •Build the index:
-   Command: python build_index.py
+   - Build the index:
+      - Command: python build_index.py
 
-5. **Running the UI:**
-   To run the streamlit U.I:
-   Command: streamlit run src/ui/app.py
+9. **Running the UI:**
+   - To run the streamlit U.I:
+      - Command: streamlit run src/ui/app.py
 
    Open the provided URL in your browser. Enter your medical query in the text box, and view the generated answer along with the contextual references used.
