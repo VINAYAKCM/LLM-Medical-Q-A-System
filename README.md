@@ -21,22 +21,22 @@ The LLM Medical Q&A System is a retrieval-augmented generation (RAG) platform de
    Command: git clone https://github.com/<your-github-username>/LLM-Med-QA-System.git
    Command: cd LLM-Med-QA-System
   
-3. **Create a Virtual Environment and Install Dependencies:**
+2. **Create a Virtual Environment and Install Dependencies:**
    Command: python -m venv venv
    Command: source venv/bin/activate  #For Windows: venv\Scripts\activate
    Command: pip install -r requirements.txt
 
-5. **Create a Virtual Environment and Install Dependencies:**
+3. **Create a Virtual Environment and Install Dependencies:**
    Create a .env file in the project root and add your Gemini API key: GEMINI_API_KEY=your_api_key_here
    
-7. **Create a Virtual Environment and Install Dependencies:**
+4. **Create a Virtual Environment and Install Dependencies:**
    •Extract content from the PDFs:
    Command: python pdf_extracted.py
 
    •Build the index:
    Command: python build_index.py
 
-8. **Running the UI:**
+5. **Running the UI:**
    To run the streamlit U.I:
    Command: streamlit run src/ui/app.py
 
