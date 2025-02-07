@@ -1,0 +1,15 @@
+# Core libraries
+PyPDF2==3.0.1
+pdfminer.six==20221105
+pdfplumber==0.7.6         # For improved PDF extraction
+nltk==3.8.1
+spacy==3.6.1
+# sqlite3 is part of the Python standard library; no need to install separately.
+streamlit==1.25.0
+sentence-transformers==2.2.2
+pyserini==0.21.0
+langchain==0.0.330
+
+# Additional packages
+python-dotenv==0.21.0     # For loading environment variables from .env
+google-generativeai       # For accessing the Gemini API
